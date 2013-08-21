@@ -1,0 +1,249 @@
+body {
+  margin: 0;
+  padding: 0;
+  font: 16px 'Source Sans Pro', Arial, Helvetica, sans-serif;
+  color: #888;
+  text-shadow: 1px 1px 0 rgba(0,0,0,0.25);
+  background: url(../images/body_bg.gif);
+}
+
+a {
+  color: #888;
+}
+
+img {
+  border: 0px;
+}
+
+.left {
+  float: left;
+  width: 50%;
+}
+
+.right {
+  float: right;
+  width: 50%;
+}
+
+.clear {
+  clear: both;
+}
+
+#page {
+  width: 820px;
+  margin: 0 auto;
+}
+
+#content {
+  padding: 20px;
+  margin: 40px auto 0 auto;
+  color: #333;
+  text-shadow: none;
+  background: #fff;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+/* Headers */
+
+h1 {
+  width: 640px;
+  height: 120px;
+  padding: 0;
+  margin: 70px auto 0 auto;
+  overflow: none;
+}
+
+h1 a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 0px;
+  text-indent: 999em;
+  background: url(../images/logo.png) no-repeat;
+}
+
+h2 {
+  padding: 0;
+  margin: 50px 0 60px 0;
+  color: #222;
+  font-family: 'Lato';
+  font-size: 50px;
+  font-weight: normal;
+  font-style: italic;
+  letter-spacing: -1px;
+  /*font-weight: normal;*/
+  /*font: 30px "Palatino Linotype", Times, serif;*/
+  /*font-style: italic;*/
+  /*text-transform: uppercase;*/
+  text-align: center;
+  text-shadow: 1px 1px 0 rgba(255,255,255,0.15);
+}
+
+h3 {
+  padding: 0;
+  margin: 0 0 10px 0;
+  color: #ddd;
+  font-size: 30px;
+  font-family: 'Lato';
+  font-weight: normal;
+  font-style: italic;
+  letter-spacing: -1px;
+  /*overflow: hidden;
+  background-repeat: no-repeat;*/
+}
+
+h3 a {
+  color: #ddd;
+  text-decoration: none;
+/*  display: block;
+  width: 100%;
+  height: 0px;
+  padding: 60px 0 0 0;*/
+}
+
+h4 {
+  padding: 0;
+  margin: 4px 0;
+  font-size: 16px;
+  font-weight: normal;
+  /*font: 15px Arial, Helvetica, sans-serif;*/
+  color: #ccc;
+}
+
+#content h4,
+#content h4 a {
+  color: #333;
+  font-weight: bold;
+}
+
+/* Footer */
+
+#footer {
+  padding: 25px 0 10px 0;
+}
+
+#footer .left {
+  padding-top: 20px;
+}
+
+#footer .right {
+  text-align: right;
+}
+
+#footer .right ul {
+  float: right;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#footer .right ul li {
+  float: left;
+  margin-left: 15px;
+  padding-top: 5px;
+}
+
+#footer .right ul li.sitelock {
+  padding-top: 0px;
+}
+
+/* Apps */
+
+ul#apps {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+ul#apps li.app {
+  width: 780px;
+  height: 160px;
+  padding: 20px;
+  margin: 0 0 30px 0;
+  text-shadow: 1px 1px 0 rgba(0,0,0,0.5);
+  background: url(../images/plugin_bg.png) no-repeat;
+  border-top: 1px solid #252525;
+  border-left: 1px solid #252525;
+  border-right: 1px solid #555;
+  border-bottom: 1px solid #555;
+  border-radius: 8px;
+}
+
+ul#apps li.app .thumbnail {
+  float: left;
+  width: 200px;
+  height: 140px;
+  padding: 10px;
+  margin-right: 20px;
+  background: url(../images/thumb_bg.png) no-repeat;
+}
+
+ul#apps li.app .thumbnail a {
+  display: block;
+  width: 200px;
+  height: 140px;
+}
+
+ul#apps li.app .info {
+  float: left;
+  width: 540px;
+  padding: 5px 0;
+}
+
+/* Buttons */
+
+ul.buttons {
+  height: 60px;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul.buttons li {
+  float: left;
+  margin: 0 20px 0 0;
+}
+
+ul.buttons li a {
+  display: block;
+  width: 135px;
+  height: 40px;
+  margin: 16px 0 0 0;
+  padding: 0;
+  /*font: 15px Arial, Helvetica;*/
+  /*font-size: 14px;*/
+  /*font-weight: bold;*/
+  /*color: #fff;*/
+  line-height: 40px;
+  /*text-transform: uppercase;*/
+  text-decoration: none;
+  text-shadow: 1px 1px #000;
+  text-align: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+ul.buttons li.more a {
+  color: #eee;
+  background: rgba(0,0,0,0.4);
+  border-radius: 5px;
+}
+
+ul.buttons li.app-store a {
+  font-size: 0px;
+  text-indent: -9999em;
+  background-image: url(../images/app-store.png);
+}
+
+/* Remind! */
+
+ul#apps li.app.remind .thumbnail a {
+  background: url(../images/apps/remind/thumbnail.png) no-repeat;
+}
+
+/* Inputbox */
+
+ul#apps li.app.inputbox .thumbnail a {
+  background: url(../images/apps/inputbox/thumbnail.png) no-repeat;
+}
